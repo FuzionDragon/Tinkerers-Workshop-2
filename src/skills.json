@@ -1,0 +1,23 @@
+{
+  "languages": [
+    "Rust",
+    "Lua",
+    "Python",
+    "Bash",
+    "Sqlite"
+  ],
+  "software": [
+    "Linux",
+    "Neovim",
+    "Zsh",
+    "Git"
+  ],
+  "web": [
+    "HTML",
+    "Css / Tailwind",
+    "Javascript / Typescript",
+    "Json",
+    "Solidjs",
+    "Netlify"
+  ]
+}

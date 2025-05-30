@@ -2,37 +2,31 @@
   {
     "name": "Portfolio Website",
     "desc": "Website built using Solidstart, using technologies like Solidjs, Typescript and Tailwindcss.",
-    "link": "https://github.com/FuzionDragon/Tinkerers-Workshop",
-    "active": true
+    "link": "https://github.com/FuzionDragon/Tinkerers-Workshop"
   },
   {
     "name": "Tracker",
     "desc": "A unique command line project / directory tracker",
-    "link": "https://github.com/FuzionDragon/Tracker",
-    "active": true
+    "link": "https://github.com/FuzionDragon/Tracker"
   },
   {
     "name": "Task Manager Tauri",
     "desc": "A simple task manager built using Tauri and Sqlite as a database.",
-    "link": "https://github.com/FuzionDragon/Task-Manager-Tauri",
-    "active": false
+    "link": "https://github.com/FuzionDragon/Task-Manager-Tauri"
   },
   {
     "name": "Ascii Converter",
     "desc": "A simple Rust CLI tool which converts a string into its ascii value",
-    "link": "https://github.com/FuzionDragon/ascii_converter",
-    "active": false
+    "link": "https://github.com/FuzionDragon/ascii_converter"
   },
   {
     "name": "Fizzbuzz Rust",
     "desc": "A basic Rust Fizzbuzz application that uses Slint for the user interface.",
-    "link": "https://github.com/FuzionDragon/fizzbuzz_rust",
-    "active": false
+    "link": "https://github.com/FuzionDragon/fizzbuzz_rust"
   },
   {
     "name" : "Dir2DB",
     "desc" : "A simple Python CLI tool which searchs a directory for CSV files to be inserted into a Sqlite database. ",
-    "link" : "https://github.com/FuzionDragon/dir2db",
-    "active" : true
+    "link" : "https://github.com/FuzionDragon/dir2db"
   }
 ]

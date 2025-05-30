@@ -12,16 +12,14 @@ jsondata.forEach(item => {
   itemTitle.textContent = item.name;
   const itemDesc = document.createElement("p");
   itemDesc.textContent = item.desc;
-  const itemActive = document.createElement("p");
-  itemActive.textContent = item.active;
   const itemLink = document.createElement("a");
   itemLink.textContent = item.link;
   itemLink.href = item.link;
+  itemLink.target = "_blank";
 
   itemCard.appendChild(itemTitle);
   itemCard.appendChild(itemDesc);
   itemCard.appendChild(itemLink);
-  itemCard.appendChild(itemActive);
 
   container.appendChild(itemCard);
 });
