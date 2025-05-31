@@ -30,13 +30,9 @@ a:hover {
 
 body {
   text-align: center;
-  align-items: center;
-  place-items: center;
-  flex-wrap: wrap;
   margin: auto;
   min-width: 320px;
   min-height: 100vh;
-  padding-bottom: 160px;
 }
 
 h1 {
@@ -50,9 +46,6 @@ h1 {
 
 #projects {
   margin: 8em;
-  align-items: left;
-  place-items: left;
-  flex-wrap: wrap;
 }
 
 #skills {
@@ -76,7 +69,6 @@ h1 {
   left: 0;
   z-index: 9999;
   border: 2px solid #546A8D;
---  border: 2px solid #76698E;
   border-radius: 8px;
   position: fixed;
 }
@@ -86,7 +78,15 @@ h1 {
   border: 2px solid #546A8D;
   margin: 2em;
   max-width: 20em;
+  min-width: 20%;
   border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
 }
 
 button {

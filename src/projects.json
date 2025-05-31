@@ -1,7 +1,12 @@
 [
   {
     "name": "Portfolio Website",
-    "desc": "Website built using Solidstart, using technologies like Solidjs, Typescript and Tailwindcss.",
+    "desc": "Website built using HTML, CSS and vanilla Javascript.",
+    "link": "https://github.com/FuzionDragon/Tinkerers-Workshop-2"
+  },
+  {
+    "name": "Portfolio Website (original)",
+    "desc": "Website built using Solidstart, using technologies like Solidjs, Typescript and Tailwindcss. No longer in use due creation of new website.",
     "link": "https://github.com/FuzionDragon/Tinkerers-Workshop"
   },
   {

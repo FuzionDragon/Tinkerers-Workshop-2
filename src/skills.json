@@ -4,7 +4,8 @@
     "Lua",
     "Python",
     "Bash",
-    "Sqlite"
+    "Sqlite / SQL",
+    "Json"
   ],
   "software": [
     "Linux",
@@ -16,8 +17,8 @@
     "HTML",
     "Css / Tailwind",
     "Javascript / Typescript",
-    "Json",
     "Solidjs",
+    "Vite",
     "Netlify"
   ]
 }

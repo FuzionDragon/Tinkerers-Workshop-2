@@ -13,10 +13,9 @@ langTitle.textContent = "Programming Languages";
 langDiv.appendChild(langTitle);
 
 languages.forEach(item => {
-  const text = document.createTextNode(item);
-  const langList = document.createElement("li");
-  langList.appendChild(text);
-  langDiv.appendChild(langList);
+  const langItem = document.createElement("p");
+  langItem.textContent = item;
+  langDiv.appendChild(langItem);
 });
 container.appendChild(langDiv);
 
@@ -30,10 +29,9 @@ webTitle.textContent = "Web Technologies";
 webDiv.appendChild(webTitle);
 
 web.forEach(item => {
-  const text = document.createTextNode(item);
-  const webList = document.createElement("li");
-  webList.appendChild(text);
-  webDiv.appendChild(webList);
+  const webItem = document.createElement("p");
+  webItem.textContent = item;
+  webDiv.appendChild(webItem);
 });
 container.appendChild(webDiv);
 
@@ -47,10 +45,9 @@ softTitle.textContent = "Software and Tools";
 softDiv.appendChild(softTitle);
 
 software.forEach(item => {
-  const text = document.createTextNode(item);
-  const softList = document.createElement("li");
-  softList.appendChild(text);
-  softDiv.appendChild(softList);
+  const softItem = document.createElement("p");
+  softItem.textContent = item;
+  softDiv.appendChild(softItem);
 });
 container.appendChild(softDiv);
 
