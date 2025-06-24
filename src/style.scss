@@ -1,4 +1,4 @@
-$font-color: #C0C2C3;
+$foreground-color: #C0C2C3;
 $background-color: #293E40;
 $highlight-color: #546A8D;
 
@@ -9,9 +9,18 @@ $highlight-color: #546A8D;
 }
 
 @mixin border {
-  background-color: $background-color;
+  background-color: light-dark($foreground-color, $background-color);
   border: 2px solid $highlight-color;
   border-radius: 8px;
+}
+
+@mixin nav {
+  @include border;
+  margin: 1em;
+  padding: 0.5em;
+  text-align: left;
+  z-index: 9999;
+  position: fixed;
 }
 
 :root {
@@ -20,8 +29,8 @@ $highlight-color: #546A8D;
   font-weight: 400;
   font-size: 18px;
   color-scheme: light dark;
-  color: $font-color;
-  background-color: $background-color;
+  color: light-dark($background-color, $foreground-color);
+  background-color: light-dark($foreground-color, $background-color);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -47,7 +56,7 @@ h1 {
 
 a {
   font-weight: 500;
-  color: $font-color;
+  color: light-dark($background-color, $foreground-color);
   text-decoration: inherit;
   padding: 5px;
 
@@ -77,15 +86,16 @@ a {
   padding-bottom: 8em;
 }
 
-#nav {
-  @include border;
-  margin: 1em;
-  padding: 0.5em;
-  text-align: left;
+#leftnav {
+  @include nav;
   top: 0;
   left: 0;
-  z-index: 9999;
-  position: fixed;
+}
+
+#rightnav {
+  @include nav;
+  top: 0;
+  right: 0;
 }
       
 .card {
