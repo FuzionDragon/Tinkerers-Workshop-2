@@ -1,6 +1,7 @@
 $foreground-color: #C0C2C3;
 $background-color: #293E40;
 $highlight-color: #546A8D;
+$mediaMaxWidth: 520px;
 
 @mixin section {
   padding-top: 8em;
@@ -20,6 +21,7 @@ $highlight-color: #546A8D;
   padding: 0.5em;
   text-align: left;
   z-index: 9999;
+  flex-grow: 2;
   position: fixed;
 }
 
@@ -97,6 +99,15 @@ a {
   top: 0;
   right: 0;
 }
+
+@media (max-width: $mediaMaxWidth) {
+  #rightnav {
+    right: auto;
+    left: 47%;
+    transform: translateX(-50%);
+    top: 4em;
+  }
+}
       
 .card {
   @include border;
@@ -107,6 +118,13 @@ a {
 }
 
 .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.navcontainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
