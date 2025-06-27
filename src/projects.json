@@ -5,6 +5,16 @@
     "link": "https://github.com/FuzionDragon/Tinkerers-Workshop-2"
   },
   {
+    "name" : "Blog Website",
+    "desc" : "A simple blog website that makes use of Marked.js to deliver entries via markdown files ",
+    "link" : "https://github.com/FuzionDragon/Blog"
+  },
+  {
+    "name": "Custom Operating System",
+    "desc": "A custom operating system built using Rust, following https://os.phil-opp.com/ as a guide to build off of",
+    "link": "https://github.com/FuzionDragon/custom_os"
+  },
+  {
     "name": "Portfolio Website (original)",
     "desc": "Website built using Solidstart, Typescript and Tailwindcss. No longer in use due creation of new website.",
     "link": "https://github.com/FuzionDragon/Tinkerers-Workshop"
