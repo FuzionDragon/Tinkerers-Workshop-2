@@ -10,6 +10,11 @@
     "link" : "https://github.com/FuzionDragon/Blog"
   },
   {
+    "name": "Page Writer",
+    "desc": "A minimal yet powerful note taking app for spontanious note takers and power users.",
+    "link": "https://github.com/FuzionDragon/Page_Writer"
+  },
+  {
     "name": "Custom Operating System",
     "desc": "A custom operating system built using Rust, following https://os.phil-opp.com/ as a guide to build off of",
     "link": "https://github.com/FuzionDragon/custom_os"
@@ -28,20 +33,5 @@
     "name": "Task Manager Tauri",
     "desc": "A simple task manager built using Tauri and Sqlite as a database.",
     "link": "https://github.com/FuzionDragon/Task-Manager-Tauri"
-  },
-  {
-    "name": "Ascii Converter",
-    "desc": "A simple Rust CLI tool which converts a string into its ascii value",
-    "link": "https://github.com/FuzionDragon/ascii_converter"
-  },
-  {
-    "name": "Fizzbuzz Rust",
-    "desc": "A basic Rust Fizzbuzz application that uses Slint for the user interface.",
-    "link": "https://github.com/FuzionDragon/fizzbuzz_rust"
-  },
-  {
-    "name" : "Dir2DB",
-    "desc" : "A simple Python CLI tool which searchs a directory for CSV files to be inserted into a Sqlite database. ",
-    "link" : "https://github.com/FuzionDragon/dir2db"
   }
 ]
