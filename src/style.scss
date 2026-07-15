@@ -4,7 +4,8 @@ $highlight-color: #546A8D;
 $mediaMaxWidth: 520px;
 
 @mixin section {
-  padding-top: 8em;
+  padding-top: 6em;
+  padding-bottom: 6em;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -45,6 +46,7 @@ html {
 }
 
 body {
+  padding-top: 4em;
   text-align: center;
   margin: auto;
   min-width: 320px;
@@ -91,21 +93,32 @@ a {
 #leftnav {
   @include nav;
   top: 0;
+  bottom: auto;
   left: 0;
 }
 
 #rightnav {
   @include nav;
   top: 0;
+  bottom: auto;
   right: 0;
 }
 
 @media (max-width: $mediaMaxWidth) {
+  body {
+    padding-top: 0;
+    padding-bottom: 4em;
+  }
   #rightnav {
     right: auto;
     left: 47%;
     transform: translateX(-50%);
-    top: 4em;
+    top: auto;
+    bottom: 4em;
+  }
+  #leftnav {
+    bottom: 0;
+    top: auto;
   }
 }
       
