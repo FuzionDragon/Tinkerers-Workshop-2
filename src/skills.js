@@ -8,7 +8,7 @@ const languages = jsondata.languages;
 const langDiv = document.createElement("div");
 langDiv.className = "card";
 
-const langTitle = document.createElement("h2");
+const langTitle = document.createElement("h3");
 langTitle.textContent = "Programming Languages";
 langDiv.appendChild(langTitle);
 
@@ -24,7 +24,7 @@ const web = jsondata.web;
 const webDiv = document.createElement("div");
 webDiv.className = "card";
 
-const webTitle = document.createElement("h2");
+const webTitle = document.createElement("h3");
 webTitle.textContent = "Web Technologies";
 webDiv.appendChild(webTitle);
 
@@ -40,8 +40,8 @@ const software = jsondata.software;
 const softDiv = document.createElement("div");
 softDiv.className = "card";
 
-const softTitle = document.createElement("h2");
-softTitle.textContent = "Software and Tools";
+const softTitle = document.createElement("h3");
+softTitle.textContent = "Software, Technologies, and Tools";
 softDiv.appendChild(softTitle);
 
 software.forEach(item => {

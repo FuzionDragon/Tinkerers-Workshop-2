@@ -5,14 +5,24 @@
     "link": "https://github.com/FuzionDragon/Tinkerers-Workshop-2"
   },
   {
-    "name" : "Blog Website",
-    "desc" : "A simple blog website that makes use of Marked.js to deliver entries via markdown files ",
-    "link" : "https://github.com/FuzionDragon/Blog"
+    "name": "Blog Website",
+    "desc": "A simple blog website that makes use of Marked.js to deliver entries via markdown files ",
+    "link": "https://github.com/FuzionDragon/Blog"
   },
   {
     "name": "Page Writer",
     "desc": "A minimal yet powerful note taking app for spontanious note takers and power users.",
-    "link": "https://github.com/FuzionDragon/Page_Writer"
+    "link": "projects/page_writer"
+  },
+  {
+    "name": "Dissertation Project",
+    "desc": "A Linux Command Line Learning Tool for Beginners.",
+    "link": "projects/dissertation_project"
+  },
+  {
+    "name": "Neural Network",
+    "desc": "A convolutional neural network geared towards training and testing with the CIFAR-10 dataset. Built as part of my machine learning module in university.",
+    "link": "https://github.com/FuzionDragon/neural_network"
   },
   {
     "name": "Custom Operating System",

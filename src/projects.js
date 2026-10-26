@@ -8,14 +8,14 @@ jsondata.forEach(item => {
   const itemCard = document.createElement("div");
   itemCard.className = "card";
 
-  const itemTitle = document.createElement("h2");
+  const itemTitle = document.createElement("h3");
   itemTitle.textContent = item.name;
   const itemDesc = document.createElement("p");
   itemDesc.textContent = item.desc;
   const itemLink = document.createElement("a");
-  itemLink.textContent = item.link;
+  itemLink.textContent = "More Details...";
   itemLink.href = item.link;
-  itemLink.target = "_blank";
+  //  itemLink.target = "_blank";
 
   itemCard.appendChild(itemTitle);
   itemCard.appendChild(itemDesc);

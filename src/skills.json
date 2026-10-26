@@ -4,20 +4,28 @@
     "Lua",
     "Python",
     "Bash",
-    "Sqlite / SQL",
-    "Json"
+    "SQLite / SQL",
+    "JSON",
+    "Java"
   ],
   "software": [
-    "Linux",
+    "Arch Linux / Ubuntu LTS / WSL2",
     "Neovim",
     "Zsh",
-    "Git"
+    "Git",
+    "Libre Office",
+    "Docker",
+    "Kafka",
+    "Google Workspace",
+    "Microsoft Office"
   ],
   "web": [
     "HTML",
     "CSS / SCSS / Tailwind",
-    "Javascript / Typescript",
+    "JavaScript / TypeScript",
     "Vite",
+    "NPM",
+    "Yarn",
     "Netlify",
     "Solidjs"
   ]
