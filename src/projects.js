@@ -12,13 +12,24 @@ jsondata.forEach(item => {
   itemTitle.textContent = item.name;
   const itemDesc = document.createElement("p");
   itemDesc.textContent = item.desc;
-  const itemLink = document.createElement("a");
-  itemLink.textContent = "More Details...";
-  itemLink.href = item.link;
-  //  itemLink.target = "_blank";
 
   itemCard.appendChild(itemTitle);
   itemCard.appendChild(itemDesc);
+
+  const itemLink = document.createElement("a");
+
+  if (item.link.startsWith("https")) {
+    const wipNotice = document.createElement("p");
+    wipNotice.textContent = "Project page WIP or planned."
+    wipNotice.style = "font-weight: bold"
+    itemCard.appendChild(wipNotice);
+    itemLink.textContent = "Link to GitHub repo";
+    itemLink.target = "_blank";
+  } else {
+    itemLink.textContent = "More Details...";
+  }
+  itemLink.href = item.link;
+
   itemCard.appendChild(itemLink);
 
   container.appendChild(itemCard);
