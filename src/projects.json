@@ -7,7 +7,7 @@
   {
     "name": "Blog Website",
     "desc": "A simple blog website that makes use of Marked.js to deliver entries via markdown files ",
-    "link": "https://github.com/FuzionDragon/Blog"
+    "link": "projects/blog_website"
   },
   {
     "name": "Page Writer",
